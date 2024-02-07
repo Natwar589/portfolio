@@ -56,7 +56,7 @@ QuickTasks is a straightforward and user-friendly todo project designed to help 
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               
               imgPath={tower}
@@ -65,7 +65,7 @@ QuickTasks is a straightforward and user-friendly todo project designed to help 
               ghLink="https://github.com/Natwar589/tower-of-hanoi"
               demoLink=""
             />
-          </Col>
+          </Col> */}
 
       
 
