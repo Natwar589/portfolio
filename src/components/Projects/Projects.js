@@ -5,7 +5,7 @@ import Particle from "../Particle";
 import todo from "../../Assets/Projects/todo.jpeg";
 import blog from "../../Assets/Projects/blog.jpg";
 import GIF from "../../Assets/Projects/GIF.gif";
-import tower from "../../Assets/Projects/hanoi.gif";
+// import tower from "../../Assets/Projects/hanoi.gif";
 function Projects() {
   return (
     <Container fluid className="project-section">
