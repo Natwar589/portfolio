@@ -5,7 +5,7 @@ import Particle from "../Particle";
 import todo from "../../Assets/Projects/todo.jpeg";
 import blog from "../../Assets/Projects/blog.jpg";
 import GIF from "../../Assets/Projects/GIF.gif";
-// import tower from "../../Assets/Projects/hanoi.gif";
+import tower from "../../Assets/Projects/hanoi.gif";
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -56,16 +56,16 @@ QuickTasks is a straightforward and user-friendly todo project designed to help 
             />
           </Col>
 
-          {/* <Col md={4} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
               
               imgPath={tower}
               title="Tower of hanoi"
               description="Tower of hanoi"
               ghLink="https://github.com/Natwar589/tower-of-hanoi"
-              demoLink=""
+              demoLink="https://65c46282eef9f03214149772--rad-cuchufli-d4b69d.netlify.app/"
             />
-          </Col> */}
+          </Col>
 
       
 
