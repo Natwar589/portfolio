@@ -7,10 +7,9 @@ import {
   DiPython,
   DiGit,
   DiJava,
+  DiMongodb,
+  DiMysql,
 } from "react-icons/di";
-
-
-
 
 function Techstack() {
   return (
@@ -21,22 +20,27 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />
       </Col>
-     
-     
+
       <Col xs={4} md={2} className="tech-icons">
         <DiReact />
       </Col>
-      
- 
+
       <Col xs={4} md={2} className="tech-icons">
         <DiGit />
       </Col>
-     
+
       <Col xs={4} md={2} className="tech-icons">
         <DiPython />
       </Col>
+
       <Col xs={4} md={2} className="tech-icons">
         <DiJava />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiMongodb />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiMysql />
       </Col>
     </Row>
   );
